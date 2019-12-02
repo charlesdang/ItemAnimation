@@ -35,3 +35,6 @@
 </Border>
 <Grid>
 </AvalonDock.DockingManager>
+
+
+test
