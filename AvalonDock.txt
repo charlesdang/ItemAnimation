@@ -1,0 +1,37 @@
+<AvalonDock.DockingManager>
+<Grid>
+<Border>
+
+<AvalonDock.ResizingPanel>
+<AvalonDock.ResizingPane>
+<AvalonDock.ResizingPane AllowDrop="True" Orientation="Vertical">
+	<DocumentPaneResizingPanel Orientation="Vertical">	
+	</DocumentPaneResizingPanel>
+	<AvalonDock.Resizer Cursor="SizeNS" Height="6">
+	</AvalonDock.Resizer>
+	<AvalonDock.ResizingPanel Orientation="Horizontal">
+		<AvalonDock.DockablePane Anchor="Bottom" CanAutohide="True" ContainsActiveContent="False" ShowHeader="True" ShowTabs="True">
+		</AvalonDock.DockablePane>
+		<AvalonDock.Resizer Cursor="SizeWE" Width="6">
+		</AvalonDock.Resizer>
+		<AvalonDock.ResizingPanel Orientation="Vertical">
+			<AvalonDock.DockablePane Anchor="Bottom"  CanAutohide="True"  ContainsActiveContent="True" >
+			</AvalonDock.DockablePane>
+			<AvalonDock.Resizer Cursor="SizeNS" Height="6">
+			</AvalonDock.Resizer>
+			<AvalonDock.DockablePane Anchor="Bottom" CanAutohide="True" ContainsActiveContent="False">
+			</AvalonDock.DockablePane>
+		</AvalonDock.ResizingPanel>
+	
+	</AvalonDock.ResizingPanel>
+/*	<AvalonDock.Resizer Cursor="SizeNS" Height="6">
+	</AvalonDock.Resizer>
+	<AvalonDock.ResizingPanel Orientation="Horizontal">
+	</AvalonDock.ResizingPanel>		*/
+
+</AvalonDock.ResizingPanel>
+</AvalonDock.ResizingPanel>
+</AvalonDock.ResizingPanel>
+</Border>
+<Grid>
+</AvalonDock.DockingManager>
